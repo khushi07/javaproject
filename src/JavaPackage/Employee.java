@@ -1,16 +1,18 @@
 package JavaPackage;
 import java.util.Scanner;
-    abstract public class Employee implements IPrintable{
+     public abstract class Employee implements IPrintable{
         private String Name;
         private int age;
         private int CurrentYear=2019;
+
 
         public String getName() {
             return Name;
         }
 
-        public void setName(String name) {
-            Name = name;
+        public void setName(String name)
+        {
+           Name=name;
         }
 
         public int getAge() {

@@ -1,6 +1,6 @@
 package JavaPackage;
 import java.util.Scanner;
- public abstract class Vehicle extends Employee implements IPrintable {
+public abstract class Vehicle extends Employee implements IPrintable {
     private String Make;
     private String Plate;
 
