@@ -30,6 +30,7 @@ public abstract class Vehicle extends Employee implements IPrintable {
 
     @Override
     public String toString() {
+        super.PrintMyData();
         return "Vehicle{" +
                 "Make='" + Make + '\'' +
                 ", Plate='" + Plate + '\'' +

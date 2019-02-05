@@ -32,6 +32,7 @@ public class FullTime extends Employee implements IPrintable {
 
     @Override
     public String toString() {
+        super.PrintMyData();
         return "Employee is a FullTime" +
                 "\nSalary=" + Salary +
                 ", \nBonus=" + Bonus +

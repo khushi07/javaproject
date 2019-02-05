@@ -21,6 +21,7 @@ abstract public class PartTime extends Employee implements IPrintable{
     }
     @Override
     public String toString() {
+        super.PrintMyData();
         return "PartTime{" +
                 "Rate=" + Rate +
                 ", HoursWorked=" + HoursWorked +

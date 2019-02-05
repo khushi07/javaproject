@@ -18,6 +18,7 @@ public class Intern extends Employee implements IPrintable{
 
     @Override
     public String toString() {
+        super.PrintMyData();
         return "Employee is an Intern" +
                 "\nSchoolName='" + SchoolName + '\'' +
                 "\nTotal Payroll= "+1000+

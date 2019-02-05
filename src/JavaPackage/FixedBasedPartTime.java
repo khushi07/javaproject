@@ -22,6 +22,7 @@ public class FixedBasedPartTime extends PartTime implements IPrintable{
 
     @Override
     public String toString() {
+        super.PrintMyData();
         return "Employee is PartTime / Fixed Amt" +
                 ", \nRate=" + Rate +
                 ", \nHoursWorked=" + HoursWorked +

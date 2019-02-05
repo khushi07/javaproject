@@ -23,6 +23,7 @@ public class CommissionBasedPartTime extends PartTime implements IPrintable
 
     @Override
     public String toString() {
+        super.PrintMyData();
         return "Employee is a Part Time/Commissioned" +
                 ", \nRate=" + Rate +
                 ", \nHoursWorked=" + HoursWorked +

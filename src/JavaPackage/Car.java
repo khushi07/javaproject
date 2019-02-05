@@ -27,6 +27,7 @@ public class Car extends Vehicle implements IPrintable
 
     @Override
     public String toString() {
+        super.PrintMyData();
         return "Employee has a Car " +
                 "\nCarName="  + CarName + '\'' +
                 "\nCarType= " + CarType + '\'';
